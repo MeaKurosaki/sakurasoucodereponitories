@@ -1,0 +1,17 @@
+{
+  "name": "sakurasou-server",
+  "version": "1.0.0",
+  "description": "Sakurasou Anime Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.0",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.4.5"
+  }
+}
